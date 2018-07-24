@@ -1,0 +1,187 @@
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: none;
+}  
+  body , html{
+        height:100%;
+        line-height: 1.8;
+        width:100%;
+        font-family: 'Amarante';
+;
+    }
+
+     h1,h2,h3,h4,h5,h6{
+        font-family:  'Audiowide';
+      
+    }
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img{
+    width:100%;
+}
+#kungfu{
+    font-style:italic;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+#foundation{
+    font-size:25px;
+    /* font-family:monospace; */
+}
+
+.bg2 , .bg3 , .bg4{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+}
+.bg2{
+    background-image: url(../images/kung-fu_2880x1620.jpg);
+}
+
+.bg3{
+background-image: url("mortal_kombat_x_sub_zero_4k_5k.jpg"); 
+background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+
+}
+.bg4{
+    background-image: url(../images/less1.jpg);
+}
+
+#testimonials p{
+font-size:24px;
+font-family:'Cherry Swash';
+
+}
+#testimonials{
+    background:linear-gradient(-90deg ,red , yellow)
+}
+#testimonials img{
+    width:100px;
+    height:100px;
+}
+.lay{
+     position: absolute; 
+ 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+   width: 100%;
+  height:0;
+  transition: .5s ease;
+ /* opacity:0; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+overflow: hidden;
+  color: white;
+  font-size: 20px;
+  /* padding: 20px; */
+  text-align: center;  
+  
+}
+.w3-card img{
+    width:200px;
+    height:200px;
+}
+.w3-card{
+    box-shadow: none;
+    border:1px solid grey;
+    border-radius:10px;
+}
+
+
+.contain{
+     position:relative; 
+}
+.contain:hover .lay{
+    /* opacity:1; */
+    height:100%;
+    
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .line{
+    border-left:1px solid black;
+    width:2px;
+}
+  #team img{
+      height:200px;
+  }
+
+  #footer{
+      min-height:100px;
+  }
+
+  #footer .devicon{
+      width:200px;
+      height:200px;
+  }
+  #course .w3-button{
+    position: absolute;
+          width:200px;              
+    top: 50%;
+    left: 50%;transform: translate(-50%, -50%);
+  }
+
+
+
+  .scrollup{
+    
+        width:30px;
+    
+        height:30px;
+    
+        opacity:1;
+    
+        position:fixed;
+   
+        bottom:0;
+    
+        right:100; 
+    
+        display:none;
+    
+        
+    background-size:cover;
+         background-image: url(../images/icontop.png);
+        background-repeat: repeat; 
+    
+    }
+
+    
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
